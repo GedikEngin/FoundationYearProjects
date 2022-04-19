@@ -1,0 +1,32 @@
+Welcome segment
+  Welcome to our group project. Within this website you will have the opportunity to
+  discover our experience during our time completing the UoM foundation year.
+
+Overview about manchester:
+  The manchester bee symbolises the industrious nature of the city and its people
+  The second largest city in the UK, only beaten by london
+  Houses 2 major football clubs, Man city and man united
+
+Student Life:
+  Large nightlife including a variety of clubs, bars and comedy clubs
+  A variety of societies to participate in, extensive enough for everyone to find their own hobby and commmunity
+  student accomodation present across northern, central and southern campus
+  
+The university of manchester:
+  Highly competetive university, that is recognised globally, being number 50th and above in most world rankings for CS
+  One of the original red brick universities in the UK, and a russel group university
+  It has incredible engineering facilities, and a dedicated building for computer science students
+
+Mini Essay About Website:
+  The proccess of creating the website was coming up with key categories we would need to include. From that point,
+  we abstracted each topic to smaller subsections to make it easier to handle and get a better idea of what we were working with.
+  The benefit of this was we were able to create a Trello board to organize and create a basic layout of the project, and then delegate tasks.
+  The next step was to install code editors (Visual Studio) and setup GitHub on them to make collaboration and version control easier.
+  We then proceeded to create pages dedicated to each tab and delegated responsabilities. Which allowed us to each work individually in our own style
+  and time frame. We then came back together to put and polish of any parts of our code that was not fully complete. We then proceeded to create our
+  documentation now that our website was completed. We created our script together using Google Documents as it is possible to collaborate on it
+  with multiple people at once. We transferred it to LaTeX and adjusted the formatting to something we all agreed would fit the theme and style of the website.
+  With every other aspect complete we proceeded to create our presentation, with each of us explaining how we created our segment of the website and
+  everything else inbetween.
+
+  
