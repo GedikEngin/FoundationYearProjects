@@ -1,0 +1,135 @@
+body { /* affects the main body of the site */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/*global*/
+.container { /* affects the stacking of everything (use for main body divs) */
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul { /* affects the placement of the navigation tabs */
+  padding: 0;
+  margin: 0;
+}
+
+
+/*Header*/
+header { /* affects the background and text color of the main header bar */
+  background: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #12194d;
+}
+header a { /* affects the appearence of nav tabs while not active*/
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li { /* affects the appeareance of the tabs */
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #name { /*affects the placement of the navigation tabs */
+  float: left;
+}
+
+header #name h1 { /* affects the bottom margin for nav */
+  margin: 0;
+}
+
+header nav { /*keeps the navigation and the main manchester bar seperate */
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight { /* affects items that are highlighted in the header */
+  color: #e8491d;
+}
+
+header a:hover { /* affects the hovered appearence of the nav tabs */
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase { /* influences the main background of the welcome part */
+  min-height: 500px;
+  background: url("../images/city_of_manchester.jfif") no-repeat 0 -200px;
+  text-align: center;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+}
+
+#showcase h1 { /* influences the main text of the welcome part */
+  margin-top: 150px;
+  color: #e8491d;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p { /* influences the subtext of the main text */
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e8491d;
+}
+
+#touch { /* the black bar that is the background for the learn more about us segment */
+  padding: 30px;
+  color: #ffffff;
+  background-color: #272d38;
+}
+
+
+/*get in touch*/
+
+button { /* the get in touch button body */
+  height: 75px;
+  width: 300px;
+  background: #a67012;
+  border: none;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+}
+
+button a { /* get in touch button text */
+  text-decoration: none;
+  color: #e8e8e8;
+  font-weight: bolder;
+}
+
+
+/*main_body*/
+
+#main_body { /* affects the main bodies distance from item on top (header intiially) */
+  margin-top: 50px;
+}
+
+.centering { /* used as the parent of center to center items */
+  height: 55px;
+  position: relative;
+  display: flex;
+}
+
+.center { /* used to center items */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
