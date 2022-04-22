@@ -94,42 +94,12 @@ header a:hover { /* affects the hovered appearence of the nav tabs */
 }
 
 
-/*get in touch*/
+/*learn more about us*/
 
-button { /* the get in touch button body */
-  height: 75px;
-  width: 300px;
-  background: #a67012;
-  border: none;
-  text-align: center;
-  position: relative;
-  font-size: 25px;
-}
-
-button a { /* get in touch button text */
-  text-decoration: none;
-  color: #e8e8e8;
-  font-weight: bolder;
-}
 
 
 /*main_body*/
 
 #main_body { /* affects the main bodies distance from item on top (header intiially) */
   margin-top: 50px;
-}
-
-.centering { /* used as the parent of center to center items */
-  height: 55px;
-  position: relative;
-  display: flex;
-}
-
-.center { /* used to center items */
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
