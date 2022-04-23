@@ -65,12 +65,13 @@ ul {
 /*showcase*/
 #showcase {
   /* influences the main background of the welcome part */
-  min-height: 500px;
+  min-height: 878px;
   background: url("../images/city_of_manchester.jfif") no-repeat 0 -200px;
   text-align: center;
   color: #ffffff;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 #showcase h1 {
@@ -100,7 +101,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #ddd;
 }
 
 #main_body {
@@ -138,32 +139,51 @@ body {
   margin-bottom: 1.5em;
 }
 
+
+/*bubbles*/
+
+#bubbles img{
+  height: 250px;
+  width: 250px;
+}
+
 .bubble_left {
   max-width: 80%;
   margin-left: 10%;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-auto-rows: minmax(100px auto);
+  grid-template-columns: 1fr 5fr;
+  grid-auto-rows: 250px;
   grid-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
   margin-left: 10%;
   gap: 1em;
-
-  border-radius: 25px;
-  border: 2px solid black;
+  background: #e8491d;
   overflow: hidden;
+  border-radius: 60px 20px;
 }
 
 .bubble_left div {
-  background: lightgray;
+  background: whitesmoke;
   padding: 1em;
 }
 
 .bubble_left div:nth-child(odd){
-  background: darkgrey;
+  background-image: url(../images/manchester_bee.png);
+  background-size: contain;
+  background-position: center;
+  background-color: #e8491d;
+  background-repeat: no-repeat;
 }
 
+.bubble_left > .box_right{
+  font-size: 20px;
+  text-align: justify;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-radius: 60px 20px;
+}
 
 /*img right bubble*/
 .bubble_right {
@@ -172,22 +192,129 @@ body {
   margin: 1em;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-auto-rows: minmax(100px auto);
+  grid-auto-rows: minmax(300px auto);
   grid-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
   margin-left: 10%;
   gap: 1em;
-  border-radius: 25px;
-  border: 2px solid black;
+  border-radius: 60px 20px;
   overflow: hidden;
+  background: #e8491d;
 }
 
 .bubble_right div {
-  background: lightgray;
+  background: whitesmoke;
   padding: 1em;
 }
 
-.bubble_right div:nth-child(odd){
-  background: darkgrey;
+.bubble_right div:nth-child(even){
+  background-image: url(../images/github.png);
+  background-size: contain;
+  background-position: center;
+  background-color: #e8491d;
+  background-repeat: no-repeat;
+}
+
+.bubble_right > .box_left {
+  font-size: 20px;
+  text-align: justify;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-radius: 60px 20px;
+}
+
+/*smaller 4 bubbles*/
+
+.body_bubbles{
+  max-width: 60%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-auto-rows: 550px;
+  grid-gap: 1em;
+  overflow: hidden;
+}
+
+
+.body_bubbles > a{
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 480px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hiddden;
+  text-decoration: solid;
+  font-weight: bolder;
+}
+
+.body_bubbles > a:first-child {
+  background: linear-gradient(90deg, #fbebd3, #ecb196, #fe5925, #fbebd3);
+  background-size: 400%;
+}
+
+.body_bubbles > a:nth-child(2){
+  background: linear-gradient(90deg, #fbe2dc, #dca2a1, #f45770, #fbe2dc);
+  background-size: 400%;
+}
+
+.body_bubbles > a:nth-child(3){
+  background: linear-gradient(90deg, #59639c, #938bb5, #bcbcd1, #59639c);
+  background-size: 400%;
+}
+
+.body_bubbles > a:last-child {
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
+}
+
+.body_bubbles > a:first-child:before,
+.body_bubbles > a:nth-child(2):before,
+.body_bubbles > a:nth-child(3):before,
+.body_bubbles > a:last-child:before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  bottom: -5px;
+  left: 5px;
+  right: -5px;
+  border-radius: 50px;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.body_bubbles > a:first-child:hover:before,
+.body_bubbles > a:nth-child(2):hover:before,
+.body_bubbles > a:nth-child(3):hover:before,
+.body_bubbles > a:last-child:hover:before{
+  opacity: 1;
+  z-index: -1
+}
+
+.body_bubbles > a:hover {
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+
+@keyframes glow {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
 }
