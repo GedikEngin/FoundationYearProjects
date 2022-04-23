@@ -1,24 +1,3 @@
-body { /* affects the main body of the site */
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  padding: 0;
-  margin: 0;
-  background-color: #f4f4f4;
-}
-
-/*global*/
-.container { /* affects the stacking of everything (use for main body divs) */
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul { /* affects the placement of the navigation tabs */
-  padding: 0;
-  margin: 0;
-}
-
 
 /*Header*/
 header { /* affects the background and text color of the main header bar */
@@ -62,6 +41,18 @@ header a:hover { /* affects the hovered appearence of the nav tabs */
   font-weight: bold;
 }
 
+ul { /* affects the placement of the navigation tabs */
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
 /*showcase*/
 #showcase { /* influences the main background of the welcome part */
   min-height: 500px;
@@ -87,19 +78,56 @@ header a:hover { /* affects the hovered appearence of the nav tabs */
   color: #e8491d;
 }
 
-#touch { /* the black bar that is the background for the learn more about us segment */
-  padding: 30px;
-  color: #ffffff;
-  background-color: #272d38;
-}
-
-
-/*learn more about us*/
-
-
 
 /*main_body*/
 
+body { /* affects the main body of the site */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
 #main_body { /* affects the main bodies distance from item on top (header intiially) */
   margin-top: 50px;
+}
+
+.black_bar{
+  background: black;
+}
+
+.ow_container { /* affects the stacking of everything (use for main body divs) */
+  padding-top: 2%;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-top: 5px solid #000000;
+}
+
+.overview_title{
+  color: orangered;
+}
+
+#overviews h2 {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+  overflow: hidden;
+}
+
+#overviews h3 {
+  text-align: left;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
 }
