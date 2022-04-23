@@ -1,47 +1,56 @@
-
 /*Header*/
-header { /* affects the background and text color of the main header bar */
+header {
+  /* affects the background and text color of the main header bar */
   background: #000000;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #12194d;
 }
-header a { /* affects the appearence of nav tabs while not active*/
+
+header a {
+  /* affects the appearence of nav tabs while not active*/
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
 }
 
-header li { /* affects the appeareance of the tabs */
+header li {
+  /* affects the appeareance of the tabs */
   float: left;
   display: inline;
   padding: 0 20px 0 20px;
 }
 
-header #name { /*affects the placement of the navigation tabs */
+header #name {
+  /*affects the placement of the navigation tabs */
   float: left;
 }
 
-header #name h1 { /* affects the bottom margin for nav */
+header #name h1 {
+  /* affects the bottom margin for nav */
   margin: 0;
 }
 
-header nav { /*keeps the navigation and the main manchester bar seperate */
+header nav {
+  /*keeps the navigation and the main manchester bar seperate */
   float: right;
   margin-top: 10px;
 }
 
-header .highlight { /* affects items that are highlighted in the header */
+header .highlight {
+  /* affects items that are highlighted in the header */
   color: #e8491d;
 }
 
-header a:hover { /* affects the hovered appearence of the nav tabs */
+header a:hover {
+  /* affects the hovered appearence of the nav tabs */
   font-weight: bold;
 }
 
-ul { /* affects the placement of the navigation tabs */
+ul {
+  /* affects the placement of the navigation tabs */
   padding: 0;
   margin: 0;
 }
@@ -54,7 +63,8 @@ ul { /* affects the placement of the navigation tabs */
 
 
 /*showcase*/
-#showcase { /* influences the main background of the welcome part */
+#showcase {
+  /* influences the main background of the welcome part */
   min-height: 500px;
   background: url("../images/city_of_manchester.jfif") no-repeat 0 -200px;
   text-align: center;
@@ -63,14 +73,16 @@ ul { /* affects the placement of the navigation tabs */
   background-position: center;
 }
 
-#showcase h1 { /* influences the main text of the welcome part */
+#showcase h1 {
+  /* influences the main text of the welcome part */
   margin-top: 150px;
   color: #e8491d;
   font-size: 55px;
   margin-bottom: 10px;
 }
 
-#showcase p { /* influences the subtext of the main text */
+#showcase p {
+  /* influences the subtext of the main text */
   font-size: 30px;
   font-style: italic;
   font-weight: bold;
@@ -81,7 +93,8 @@ ul { /* affects the placement of the navigation tabs */
 
 /*main_body*/
 
-body { /* affects the main body of the site */
+body {
+  /* affects the main body of the site */
   font-family: Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -90,44 +103,91 @@ body { /* affects the main body of the site */
   background-color: #f4f4f4;
 }
 
-#main_body { /* affects the main bodies distance from item on top (header intiially) */
+#main_body {
+  /* affects the main bodies distance from item on top (header intiially) */
   margin-top: 50px;
 }
 
-.black_bar{
-  background: black;
+/* .photo_left {
+  margin-left: 12.5%;
+  float: left;
+  height: 250px;
+  width: 250px;
 }
 
-.ow_container { /* affects the stacking of everything (use for main body divs) */
-  padding-top: 2%;
-  width: 80%;
-  margin: auto;
+.photo_right {
+  margin-right: 12.5%;
+  float: right;
+  height: 250px;
+  width: 250px;
+}
+
+.ow_container {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+}
+
+.ow_container h4 {
+  margin: 0px;
+  font-size: 25px;
+} */
+
+.dividers{
+  border: 7px solid;
+  margin-bottom: 1.5em;
+}
+
+.bubble_left {
+  max-width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  margin-left: 10%;
+  gap: 1em;
+
+  border-radius: 25px;
+  border: 2px solid black;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  border-top: 5px solid #000000;
 }
 
-.overview_title{
-  color: orangered;
+.bubble_left div {
+  background: lightgray;
+  padding: 1em;
 }
 
-#overviews h2 {
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  width: 80%;
-  border-top: 5px solid #000000;
-  border-bottom: 5px solid #000000;
+.bubble_left div:nth-child(odd){
+  background: darkgrey;
+}
+
+
+/*img right bubble*/
+.bubble_right {
+  max-width: 80%;
+  margin-left: 10%;
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: minmax(100px auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  margin-left: 10%;
+  gap: 1em;
+  border-radius: 25px;
+  border: 2px solid black;
   overflow: hidden;
 }
 
-#overviews h3 {
-  text-align: left;
-  justify-content: center;
-  margin: auto;
-  width: 80%;
-  overflow: hidden;
-  border-top: 5px solid #000000;
-  border-bottom: 5px solid #000000;
+.bubble_right div {
+  background: lightgray;
+  padding: 1em;
+}
+
+.bubble_right div:nth-child(odd){
+  background: darkgrey;
 }
