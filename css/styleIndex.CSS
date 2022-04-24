@@ -1,94 +1,120 @@
-/*Header*/
-header {
-  /* affects the background and text color of the main header bar */
-  background: #000000;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #12194d;
-}
-
-header a {
-  /* affects the appearence of nav tabs while not active*/
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li {
-  /* affects the appeareance of the tabs */
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #name {
-  /*affects the placement of the navigation tabs */
-  float: left;
-}
-
-header #name h1 {
-  /* affects the bottom margin for nav */
-  margin: 0;
-}
-
-header nav {
-  /*keeps the navigation and the main manchester bar seperate */
-  float: right;
-  margin-top: 10px;
-}
-
-header .highlight {
-  /* affects items that are highlighted in the header */
-  color: #e8491d;
-}
-
-header a:hover {
-  /* affects the hovered appearence of the nav tabs */
-  font-weight: bold;
-}
-
-ul {
-  /* affects the placement of the navigation tabs */
-  padding: 0;
-  margin: 0;
-}
-
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
 
-
-/*showcase*/
-#showcase {
-  /* influences the main background of the welcome part */
-  min-height: 878px;
-  background: url("../images/city_of_manchester.jfif") no-repeat 0 -200px;
-  text-align: center;
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+/*Header*/
+header {
+  background: #000000;
   color: #ffffff;
+  padding-top: 1em;
+  min-height: 70px;
+  border-bottom: #12194d;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #name {
+  float: left;
+}
+header #name h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight {
+  color: #e8491d;
+}
+header a:hover {
+  font-weight: bold;
+}
+
+/*The University*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../images/city_of_manchester.jfif");
   background-position: center;
   background-size: cover;
   position: relative;
 }
-
-#showcase h1 {
-  /* influences the main text of the welcome part */
-  margin-top: 150px;
-  color: #e8491d;
-  font-size: 55px;
-  margin-bottom: 10px;
+.text-box{
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
+.text-box h1{
+  font-size: 62px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+}
+.uni-webpage{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: large;
+}
+.uni-webpage:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.2s;
+}
+/* nav .fa{
+    display: none;
+}*/
 
-#showcase p {
-  /* influences the subtext of the main text */
-  font-size: 30px;
-  font-style: italic;
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #e8491d;
+@media (max-width: 768px) {
+  .text-box h1{
+    font-size: 20px;
+  }
+  .container ul li {
+      display: block;
+  }
+  .container{
+      position: absolute;
+      background: #12194d;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: 0;
+      text-align: left;
+      z-index: 2;
+  }
 }
 
 
@@ -108,31 +134,6 @@ body {
   /* affects the main bodies distance from item on top (header intiially) */
   margin-top: 50px;
 }
-
-/* .photo_left {
-  margin-left: 12.5%;
-  float: left;
-  height: 250px;
-  width: 250px;
-}
-
-.photo_right {
-  margin-right: 12.5%;
-  float: right;
-  height: 250px;
-  width: 250px;
-}
-
-.ow_container {
-  width: 100%;
-  height: auto;
-  padding: 2%;
-}
-
-.ow_container h4 {
-  margin: 0px;
-  font-size: 25px;
-} */
 
 
 .dividers{
