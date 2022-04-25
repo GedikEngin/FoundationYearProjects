@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: whitesmoke;
 }
 
 /*global*/
@@ -203,11 +203,12 @@ header a:hover {
 .body_bubbles > a:nth-child(3):hover:before,
 .body_bubbles > a:last-child:hover:before{
   opacity: 1;
-  z-index: -1
+  z-index: -1;
 }
 
+
 .body_bubbles > a:first-child::after{
-  content: "City of Manchester"
+  content: "City of Manchester";
 }
 
 .body_bubbles > a:nth-child(2)::after{
@@ -259,8 +260,16 @@ header a:hover {
 
 footer {
 padding: 10px;
-margin-top: 500px;
+margin-top: ;
 color: #c6bebe;
 background-color: #21252e;
 text-align: center;
+}
+
+footer > a{
+  color: #e8491d;
+}
+
+footer > a:hover{
+  color: white;
 }
