@@ -114,7 +114,48 @@ header a:hover {
   align-items: center;
   justify-content: center;
 }
-.bsc {
+
+.engin {
+  border: red solid 3px;
+  width: 60%;
+  margin: 5%;
+  background-color: rgb(104, 108, 128);
+  border-radius: 10px;
+  color: #c6ccd8;
+  padding: 20px;
+  line-height: 5mm;
+}
+.matina {
+  border: rgb(62, 79, 94) solid 2px;
+  width: 60%;
+  margin: 5%;
+  background-color: rgb(104, 108, 128);
+  border-radius: 10px;
+  color: #c6ccd8;
+  padding: 20px;
+  line-height: 5mm;
+}
+.salman {
+  border: rgb(62, 79, 94) solid 2px;
+  width: 60%;
+  margin: 5%;
+  background-color: rgb(104, 108, 128);
+  border-radius: 10px;
+  color: #c6ccd8;
+  padding: 20px;
+  line-height: 5mm;
+}
+.aadil {
+  border: rgb(62, 79, 94) solid 2px;
+  width: 60%;
+  margin: 5%;
+  background-color: rgb(104, 108, 128);
+  border-radius: 10px;
+  color: #c6ccd8;
+  padding: 20px;
+  line-height: 5mm;
+}
+.jamie {
   border: rgb(62, 79, 94) solid 2px;
   width: 60%;
   margin: 5%;
@@ -125,10 +166,9 @@ header a:hover {
   line-height: 5mm;
 }
 
-.bsc h2 {
+.engin, .matina, .salman, .aadil, .jamie h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
-}
 
 .time {
   color: #6b6f8b;
@@ -140,9 +180,6 @@ header a:hover {
   margin-left: 20px;
 }
 
-.bsc ul {
-  margin-left: 60px;
-}
 /*get in touch*/
 button {
   height: 75px;
