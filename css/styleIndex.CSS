@@ -1,3 +1,4 @@
+/* affects the main body of the site  */
 body {
   font-family: Arial, sans-serif;
   font-size: 15px;
@@ -7,12 +8,15 @@ body {
   background-color: whitesmoke;
 }
 
-/*global*/
+/* global container */
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
+
+/* the navigation tabs at the top */
+
 ul {
   padding: 0;
   margin: 0;
@@ -61,7 +65,7 @@ header a:hover {
   font-weight: bold;
 }
 
-/*The University*/
+/* the welcome segment y*/
 .header {
   min-height: 100vh;
   width: 100%;
@@ -104,9 +108,6 @@ header a:hover {
   background: #f44336;
   transition: 0.2s;
 }
-/* nav .fa{
-    display: none;
-}*/
 
 @media (max-width: 768px) {
   .text-box h1{
@@ -127,6 +128,7 @@ header a:hover {
   }
 }
 
+/* the 4 bubbles that navigate to the other segments of the site */
 
 .body_bubbles{
   max-width: 60%;
@@ -160,6 +162,8 @@ header a:hover {
   text-decoration: solid;
   font-weight: bolder;
 }
+
+/* colors and animations */
 
 .body_bubbles > a:first-child {
   background: linear-gradient(90deg, #fbebd3, #ecb196, #fe5925, #fbebd3);
@@ -207,6 +211,7 @@ header a:hover {
 }
 
 
+/* the links and changes on hovers + bios  */
 .body_bubbles > a:first-child::after{
   content: "City of Manchester";
 }
@@ -257,7 +262,7 @@ header a:hover {
   }
 }
 
-
+/* footer  */
 footer {
 padding: 10px;
 margin-top: ;
