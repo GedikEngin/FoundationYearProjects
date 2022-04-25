@@ -127,109 +127,100 @@ header a:hover {
   }
 }
 
-/*facilities*/
-.facilities{
-    padding-top: 80px;
-    width: 80%;
-    margin: auto;
-    text-align: center; 
+
+.body_bubbles{
+  max-width: 60%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-auto-rows: 550px;
+  grid-gap: 1em;
+  overflow: hidden;
 }
-.facilities h1{
-    font-size: 60px;
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-weight: 500;
+
+
+.body_bubbles > a{
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 480px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hiddden;
+  text-decoration: solid;
+  font-weight: bolder;
 }
-.facilities p{
-    color: rgb(156, 149, 149);
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 0px;
-    padding: 10px;
+
+.body_bubbles > a:first-child {
+  background: linear-gradient(90deg, #fbebd3, #ecb196, #fe5925, #fbebd3);
+  background-size: 400%;
 }
-.lists{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+
+.body_bubbles > a:nth-child(2){
+  background: linear-gradient(90deg, #fbe2dc, #dca2a1, #f45770, #fbe2dc);
+  background-size: 400%;
 }
-.list-of-3{
-    flex-basis: 31%;
-    border: 10px;
-    margin-bottom: 5%;
-    text-align: left;
+
+.body_bubbles > a:nth-child(3){
+  background: linear-gradient(90deg, #59639c, #938bb5, #bcbcd1, #59639c);
+  background-size: 400%;
 }
-.list-of-3 img{
-    width: 100%;
-    height: 300px;
-    border-radius: 10%;
-    transition: 0.5s;
+
+.body_bubbles > a:last-child {
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
 }
-.list-of-3 h3{
-    text-align: center;
-    font-weight: 700;
-    margin: 10px 0px;
+
+.body_bubbles > a:first-child:before,
+.body_bubbles > a:nth-child(2):before,
+.body_bubbles > a:nth-child(3):before,
+.body_bubbles > a:last-child:before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  bottom: -5px;
+  left: 5px;
+  right: -5px;
+  border-radius: 50px;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.5s;
 }
-.list-of-3 p{
-    line-height: 20px;
-    text-align: center;
+
+.body_bubbles > a:first-child:hover:before,
+.body_bubbles > a:nth-child(2):hover:before,
+.body_bubbles > a:nth-child(3):hover:before,
+.body_bubbles > a:last-child:hover:before{
+  opacity: 1;
+  z-index: -1
 }
-.list-of-3 img:hover{
-    box-shadow: 0 0 20px 0px;
+
+.body_bubbles > a:hover {
+  z-index: 1;
+  animation: glow 8s linear infinite;
 }
-@media (max-width: 768px){
-  .list-of-3{
-      flex-direction: column;
-      height: 100%;
+
+@keyframes glow {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
   }
 }
-/*Campus*/
 
-.campus h1{
-  font-size: 60px;
-  font-family: 'Mouse Memoirs', sans-serif;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 60px;
-}
-.campus p{
-  color: rgb(156, 149, 149);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 0px;
-  padding: 10px;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding: 30px;
-}
-.list-of-campus{
-    width: 80%;
-    flex-basis: 32%;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-.list-of-campus img{
-    width: 100%;
-    border-radius: 5px;
-}
-.layer{
-    background-color: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-.layer:hover{
-  background: rgba(125, 121, 121, 0.7);
-}
-.layer h3{
-  text-align: center;
-  font-weight: 700;
-  margin: 10px 0px;
-}
+
 
 /*boxes*/
 #about a,
