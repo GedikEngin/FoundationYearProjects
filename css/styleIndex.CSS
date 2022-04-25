@@ -206,6 +206,42 @@ header a:hover {
   z-index: -1
 }
 
+.body_bubbles > a:first-child::after{
+  content: "City of Manchester"
+}
+
+.body_bubbles > a:nth-child(2)::after{
+  content: "Student Life"
+}
+
+.body_bubbles > a:nth-child(3)::after{
+  content: "University of Manchester"
+}
+
+.body_bubbles > a:last-child::after{
+  content: "Foundation Year"
+}
+
+.body_bubbles > a:first-child:hover::after{
+  margin: 2em;
+  content: "A chance to find out more about the city of Manchester, its lineage and discover it from a new perspective!"
+}
+
+.body_bubbles > a:nth-child(2):hover::after{
+  margin: 2em;
+  content: "An Opportunity to discover what your options and experiences can lead up to whilst studying in the University of Manhcester and the city of Manchester"
+}
+
+.body_bubbles > a:nth-child(3):hover::after{
+  margin: 2em;
+  content: "Gain insight to the rich and endless facilities and resources you would have access to at the University"
+}
+
+.body_bubbles > a:last-child:hover::after{
+  margin: 2em;
+  content: "Learn about our experience in the foundation year, what we think of it and more!"
+}
+
 .body_bubbles > a:hover {
   z-index: 1;
   animation: glow 8s linear infinite;
@@ -221,40 +257,6 @@ header a:hover {
 }
 
 
-
-/*boxes*/
-#about a,
-.box a {
-color: #4970db;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 16px;
-}
-/*boxes*/
-#boxes {
-margin-top: 50px;
-}
-#boxes .box {
-float: left;
-width: 30%;
-padding: 10px;
-text-align: center;
-transition: 1s;
-}
-#boxes .box img {
-width: 100px;
-height: 320px;
-width: 90%;
-border-radius: 5px;
-}
-/*.box img:hover{
-box-shadow: 0 0 20px 0px;
-}*/
-.box:hover {
--ms-transform: scale(1.2); /* IE 9 */
--webkit-transform: scale(1.2); /* Safari 3-8 */
-transform: scale(1.2); 
-}
 footer {
 padding: 10px;
 margin-top: 500px;
