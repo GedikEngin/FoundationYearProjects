@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: whitesmoke;
+  display: grid;
 }
 
 /* global container */
@@ -128,45 +129,51 @@ header a:hover {
   }
 }
 
+/* bios */
 
-.bubble_left {
-  max-width: 80%;
-  margin-left: 10%;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-auto-rows: 250px;
-  grid-gap: 1em;
-  justify-items: stretch;
-  align-items: stretch;
-  gap: 1em;
-  background: #e8491d;
-  overflow: hidden;
-  border-radius: 60px 20px;
+img {
+  margin-top: 2em;
+  width: 275px;
+  height: 275px;
+  object-fit:cover;
+  margin-bottom: 2em;
+  
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+  
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+.container {
+  max-width:80%;
+  max-height:350px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  
+}
+
+.container:hover img {
+  opacity:0.3;
+}
+
+.container img:hover {
+  transform:perspective(800px) rotateY(0deg);
+  opacity:1;
+}
+
+.biography{
   margin-top: 3em;
   margin-bottom: 3em;
+  max-width: 70%;
+  border: 5px solid red;
+  margin-left: 15%;
+  text-align: center;
 }
+/* use each image class to dictate what will happen when the image box is hovered over
+if needed refer to the bubbles in index to help create this effect. */
 
-.bubble_left div {
-  background: whitesmoke;
-  padding: 1em;
-}
-
-.bubble_left div:nth-child(odd){
-  background-image: url(../images/engin.png);
-  background-size: 500px 500px;
-  background-position: center;
-  background-color: #e8491d;
-  background-repeat: no-repeat;
-}
-
-.bubble_left > .box_right{
-  font-size: 20px;
-  text-align: justify;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
-  border-radius: 60px 20px;
-}
 
 /* footer  */
 footer {
