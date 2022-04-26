@@ -1,171 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- page initalisation and head creation -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Personal Webpage">
+  <meta name="description" content="Personal Webpage, initial-scale=1.0">
   <mata name="author" content="Salman Ashraf">
-    <meta name="keywords" content="resume, about me, first webpage">
-    <title>Salman ASHRAF | About</title>
-    <link rel="stylesheet" href="./CSS/styleAboutUs.CSS">
+  <meta name="keywords" content="resume, about me, first webpage">
+  <title>Manchester Foundation Year | The University</title>
+  <link rel="stylesheet" href="./css/styleAboutUs.CSS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&family=Miltonian&family=Mouse+Memoirs&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-  <header>
-    <div class="container">
-      <div id="name">
-        <h1>Salman <span class="highlight">ASHRAF</span></h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</span></a></li>
-          <li><a href="manchester.html">Manchester</a></li>
-          <li><a href="uom.html">UoM</a></li>
-          <li><a href="foundation_year.html">FY</a></li>
-          <li><a href="student_life.html">Student Life</a></li>
-          <li><a href="about_us.html"><span class="highlight">About Us</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <section id="main">
-    <div class="container">
-      <article id="about">
-        <h1 class="page title">
-          About Us
-        </h1>
-        <p>
-          Hey you guys! We are a creative team composed of 5 people, Engin, Aadil, Martine, Jamie and Salman.
-          We worked together on this site for you guys to see what it feels like to do a foundation year in
-          Computer Science in one of the most competetive universities out there, The University of Manchester.
-          We hope this website was able to give insight on our experiences and the key information you might need
-          to prosper and make the most out of your time here! Please don't hesitate to contact us if you need to,
-          we are always more than happy to help a fellow 'geek' out.
-        </p>
-        <p>     ~~ Engin</p>
-        <br>
-        <p>
-
-        </p>
-      </article>
-      <aside id="sidebar">
-        <div class="dark">
-          <h3>Why Computer Science?</h3>
-          <p>
-            We all felt that computer science was the best choice for us tostudy at University. This is due to
-            the unlimited potential of the field and the constant expansion of it, so much so that there is something
-            for every member of our group here, whether it is finance tech, cyber security, or even something as non-traditional
-            as integrating CS with music and audio! We love the field and it never ceases to keep us engaged.
-            <p>Apart from maths,
-            that's torture.
-          </p>
-          </p>
+  <!-- navigation bar at the top -->
+  <section class="header">
+    <header>
+      <div class="container">
+        <div id="name">
+          <h1>Foundation Year <span class="highlight"> Manchester</span></h1>
         </div>
-      </aside>
+        <nav>
+          <ul>
+            <!-- the different tabs -->
+            <li><a href="index.html">Home</span></a></li>
+            <li><a href="manchester.html">Manchester</a></li>
+            <li><a href="uom.html">UoM</a></li>
+            <li><a href="foundation_year.html">FY</a></li>
+            <li><a href="student_life.html">Student Life</a></li>
+            <li><a href="about_us.html"> <span class="highlight">About Us</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- large image with text to serve as a welcome to the site, also containing access to the about us page -->
+    <div class="text-box">
+      <h1>About our group</h1>
+      <p>Hey you guys! We are a creative team composed of 5 people, Engin, Aadil, Martine, Jamie and Salman.
+        We worked together on this site for you guys to see what it feels like to do a foundation year in
+        Computer Science in one of the most competetive universities out there, The University of Manchester.
+        We hope this website was able to give insight on our experiences and the key information you might need
+        to prosper and make the most out of your time here! Please don't hesitate to contact us if you need to,
+        we are always more than happy to help a fellow 'geek' out.</p>
+     <a href="./about_us.html" class="uni-webpage" target="_blank">Visit Us</a>
     </div>
   </section>
 
+  <!-- creation of the 4 tabs to navigate to other branches of the site -->
 
-  <section id="touch">
-    <h3 id="my">About Us</h3>
-  </section>
-  <div class="ddd">
-    <section id="academic">
-      <div class="engin">
-        <p class="tim">Young Elon Musk</p>
-        <h2>Engin Gedik</h2>
-        <h4>Turkey</h4>
-        <p class="des">
-          My hobbies include proscatinating at lethal levels that endanger my entire future. And cooking, got I love sushi.
-          My dream Holuday would be to Thailand or America, to practice Muay Thai or Wrestling in their respective home turfs.
-          My favorite area of CS would be Fin Tech, the potential money there is so appealing for me to retire early and do what I love
-          A cool fact about me is I am 6'4 which happens to be a quarter of my personality :)
-        </p>
-      </div>
-
-      <div class="matina">
-        <p class="tim">The Creative One</p>
-        <h2>Matina Shams</h2>
-        <h4>The Manchester College</h4>
-        <p class="des">The focus of this course is around the science and engineering industry. I studied different
-          level 3 units in Mathematics, Physics, and Electronics. I also learned other units focusing on the use of MS
-          office, processing programs, spreadsheets, and other ICT techniques. My final mark for the course was 144 UCAS
-          points.</p>
-      </div>
-
-      <div class="salman">
-        <p class="tim">Zuckerberg but better <3</p>
-        <h2>Salman Ashraf</h2>
-        <h4>The Manchester College</h4>
-        <p class="des">As a mentor, I was able to establish an honest and respectful relationship with my students and
-          provide support, guidance, and feedback to obtain desired outcomes. I always tried to be friendly, and I made
-          my students believe that they have the necessary skills and experience to achieve their goals. I made a
-          genuine commitment to mentoring while I had to manage my own education. With some long working days and
-          excellent time management, I was able to accomplish my aim. </p>
-      </div>
-
-      <div class="aadil">
-        <p class="tim">The Man The Myth The Legend</p>
-        <h2>Aadil Sarwar</h2>
-        <h4>Barking & Dagenham College</h4>
-        <p class="des">GCSEs level 2 course. Final grades: </p>
-        <ul>
-          <li>Edexcel Mathematics: A*</li>
-          <li>Edexcel Combined Science (Chemistry, Biology, Physics): A*</li>
-          <li>AQA English: B</li>
-          <li>Edexcel Statistics: C</li>
-        </ul>
-      </div>
-
-      <div class="jamie">
-        <p class="tim">The Madman</p>
-        <h2>Jamie Li</h2>
-        <h4>SBC, Manchester</h4>
-        <p class="des">The course is arranged in 4 units:</p>
-        <ul>
-          <li>Unit 1 is about understanding the principle of working in the security industry.</li>
-          <li>Unit 2 is about working as a door supervisor.</li>
-          <li>Unit 3 explains the application of conflict management.</li>
-          <li>Unit 4 simulates the use of physical intervention.</li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-
-
-
-  <section id="touch">
-    <h3>Follow me on social media:</h3>
-  </section>
-
-
-  <section id="boxes">
-    <div class="box">
-      <a href="https://www.facebook.com/salluok/" target="_blank"><img src="./images/face.png"></a>
-      <h4>Facebook</h4>
-    </div>
-    <div class="box">
-      <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./images/insta.png"></a>
-      <h4>Instagram</h4>
-    </div>
-    <div class="box">
-      <a href="www.linkedin.com/in/salman-ashraf-576a021b0" target="_blank"><img src="./images/in.png"></a>
-      <h4>Linked-in</h4>
-    </div>
-  </section>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+</body>
+  <!-- the access to the git repo -->
   <footer>
-    <p>Salman ASHRAF, copyright &copy; 2022</p>
+    <a href="https://github.com/GedikEngin/FoundationYearProject/",>Foundation Year Manchester - Learn More About The Site</a>
   </footer>
 
 </html>

@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!---Fonts taken from 'Google Fonts'----->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Personal Webpage">
+  <meta name="description" content="Personal Webpage, initial-scale=1.0">
   <mata name="author" content="Salman Ashraf">
-    <meta name="keywords" content="resume, about me, first webpage">
-    <title>Manchester Foundation Year | Welcome</title>
-    <link rel="stylesheet" href="./CSS/style.CSS">
+  <meta name="keywords" content="resume, about me, first webpage">
+  <title>Manchester Foundation Year | The City</title>
+  <link rel="stylesheet" href="./css/styleMan.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,200;1,500;1,700&family=Miltonian&family=Mouse+Memoirs&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div id="name">
-        <h1>Foundation Year <span class="highlight"> Manchester</span></h1>
+  <!----Header idea taken from the video 'HTML Crash Course For Absolute Beginners'---->
+  <section class="header">
+    <header>
+      <div class="container">
+        <div id="name">
+          <h1>Foundation Year <span class="highlight"> Manchester</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="manchester.html"><span class="highlight">Manchester</span></a></li>
+            <li><a href="uom.html">UoM</a></li>
+            <li><a href="foundation_year.html">FY</a></li>
+            <li><a href="student_life.html">Student Life</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="manchester.html"><span class="highlight">Manchester</span></a></li>
-          <li><a href="uom.html">UoM</a></li>
-          <li><a href="foundation_year.html">FY</a></li>
-          <li><a href="student_life.html">Student Life</a></li>
-          <li><a href="about_us.html">About Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="showcase">
-
-    <div class="container">
-      <h1>Welcome to my website</h1>
-      <p>The official website of Salman Ashraf </p>
+    </header>
+    <!---Idea taken from video 'How To Make Website Using HTML & CSS'---->
+    <div class="text-box">
+      <h1>The City of Manchester</h1>
+      <p>Highly competetive university that is recognised globally, being number 50th and above in most world rankings for CS.
+        <p>One of the 8 original red brick universities in the UK, and a part of the Russel Group Universities. It has incredible engineering facilities, and a dedicated building for computer science students.</p>
+     <a href="https://www.visitmanchester.com/" class="uni-webpage" target="_blank">Visit the city website</a>
     </div>
   </section>
 
-  <section id="touch">
-    <div class="centering">
-      <div class="center">
-        <button><a href="mailto:salman.ashraf2513@gmail.com">Get in Touch</a></button>
+  <!----Facilities information taken from university webpage---->
+  <section class="facilities">
+    <h1>Facilities</h1>
+    <p>The University of Manchester Library is at the heart of the UK's largest university</p>
+
+    <div class="lists">
+      <div class="list-of-3">
+        <a href="https://www.manchester.ac.uk/research/" target="_blank"><img src="images/Research.jpg" alt="Medical Plastics News Microfluids firm aids Uni of Manchester students with drug delivery research - Medical Plastics News"></a>
+        <h3>Research</h3>
+        <p> Visit the N8 Research Partnership website to find research facilities that can take your organisation to the next level.</p>
+      </div>
+      <div class="list-of-3">
+       <a href="https://www.manchester.ac.uk/discover/university-library/" target="_blank"><img src="images/library.jpg" alt="UoM Library on Twitter"></a>
+        <h3>The University Library</h3>
+        <p>The University of Manchester Library is one of only five national research libraries.</p>
+      </div>
+      <div class="list-of-3">
+        <a href="https://www.manchester.ac.uk/discover/maps/accommodation/" target="_blank"><img src="images/accomodation.jpg" alt="INTO Study Accommodation at INTO Manchester | INTO"></a>
+        <h3>Accomodations</h3>
+        <p>The hotel offers a range of guest rooms and one-bedroom suites and is well connected to local and international transport hubs, including Manchester Piccadilly Train Station and Manchester Airport.</p>
       </div>
     </div>
   </section>
 
-  <section id="boxes">
-    <div class="box">
-      <a href="https://www.manchester.ac.uk/study/undergraduate/courses/2022/00560/bsc-computer-science/"
-        target="_blank"><img src="./images/uom.png"></a>
-      <h4>The University Of Manchester</h4>
-      <p>Current Institute</p>
-    </div>
-    <div class="box">
-      <a href="https://www.tesco.com/" target="_blank"><img src="./images/tesco.png"></a>
-      <h4>Tesco</h4>
-      <p>Part-time employment</p>
-    </div>
-    <div class="box">
-      <a href="https://www.visitmanchester.com/" target="_blank"><img src="./images/manchester.png"></a>
-      <h4>Manchester</h4>
-      <p>Hometown</p>
-    </div>
+    <!----------Campus--------->
+    <section class="campus">
+      <h1>The Campus</h1>
+      <p> The main campus is south of Manchester City Centre on Oxford Road.</p>
+    <section id="boxes">
+      <div class="box">
+        <a href="https://www.manchester.ac.uk/discover/maps/" target="_blank"><img src="./images/campus.png"></a>
+        <h4>14 Computer Clusters</h4>
+      </div>
+      <div class="box">
+        <a href="https://www.studentsupport.manchester.ac.uk/" target="_blank"><img src="./images/support.jpg"></a>
+        <h4>Student Support</h4>
+      </div>
+      <div class="box">
+        <a href="https://manchesterstudentsunion.com/" target="_blank"><img src="./images/SU.png"></a>
+        <h4>Students' Union</h4>
+      </div>
+    </section>
+    </section>
   </section>
-  <div class="container marketing">
-</body>
 <footer>
-  <p>Salman Ashraf, copyright &copy; 2022</p>
+  <p>Foundation Year Manchester</p>
 </footer>
 
+</body>
 </html>

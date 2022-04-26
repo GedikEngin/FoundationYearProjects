@@ -1,18 +1,22 @@
+/* affects the main body of the site  */
 body {
   font-family: Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: whitesmoke;
 }
 
-/*global*/
+/* global container */
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
+
+/* the navigation tabs at the top */
+
 ul {
   padding: 0;
   margin: 0;
@@ -61,240 +65,85 @@ header a:hover {
   font-weight: bold;
 }
 
-/*showcase*/
-#showcase {
-  min-height: 500px;
-  background: url("../images/hi.jpg") no-repeat 0 -200px;
-  text-align: center;
-  color: #ffffff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  background-attachment: fixed;
+/* the welcome segment y*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../images/city_of_manchester.jfif");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-}
-#showcase h1 {
-  margin-top: 150px;
-  color: #9faabf;
-  font-size: 55px;
-  margin-bottom: 10px;
-}
-#showcase p {
-  font-size: 20px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #c6ccd8;
-}
-#touch {
-  padding: 30px;
-  color: #ffffff;
-  background-color: #272d38;
-}
-#my {
-  font-weight: bolder;
-  font-size: 15pt;
-  text-align: center;
-}
-#about {
-  float: left;
-  width: 65%;
-}
-#academic {
-  padding: 50px;
-  color: #2b2929;
-  background-color: #3e4955;
-  align-items: center;
-  justify-content: center;
-}
-.ddd {
-  align-items: center;
-  justify-content: center;
-}
-
-.engin {
-  border: red solid 3px;
-  width: 60%;
-  margin: 5%;
-  background-color: rgb(104, 108, 128);
-  border-radius: 10px;
-  color: #c6ccd8;
-  padding: 20px;
-  line-height: 5mm;
-}
-.matina {
-  border: rgb(62, 79, 94) solid 2px;
-  width: 60%;
-  margin: 5%;
-  background-color: rgb(104, 108, 128);
-  border-radius: 10px;
-  color: #c6ccd8;
-  padding: 20px;
-  line-height: 5mm;
-}
-.salman {
-  border: rgb(62, 79, 94) solid 2px;
-  width: 60%;
-  margin: 5%;
-  background-color: rgb(104, 108, 128);
-  border-radius: 10px;
-  color: #c6ccd8;
-  padding: 20px;
-  line-height: 5mm;
-}
-.aadil {
-  border: rgb(62, 79, 94) solid 2px;
-  width: 60%;
-  margin: 5%;
-  background-color: rgb(104, 108, 128);
-  border-radius: 10px;
-  color: #c6ccd8;
-  padding: 20px;
-  line-height: 5mm;
-}
-.jamie {
-  border: rgb(62, 79, 94) solid 2px;
-  width: 60%;
-  margin: 5%;
-  background-color: rgb(104, 108, 128);
-  border-radius: 10px;
-  color: #c6ccd8;
-  padding: 20px;
-  line-height: 5mm;
-}
-
-.engin, .matina, .salman, .aadil, .jamie h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bolder;
-
-.time {
-  color: #6b6f8b;
-}
-.tim {
-  color: #a6aac4;
-}
-.des {
-  margin-left: 20px;
-}
-
-/*get in touch*/
-button {
-  height: 75px;
-  width: 300px;
-  background: #a67012;
-  border: none;
-  text-align: center;
   position: relative;
-  font-size: 25px;
 }
-button a {
-  text-decoration: none;
-  color: #e8e8e8;
-  font-weight: bolder;
-}
-
-#button1 {
-  font-size: 12pt;
+.text-box{
+  width: 80%;
   color: #ffffff;
-  font-weight: bolder;
-  margin-top: 10px;
-  height: 30px;
-  width: 80px;
-  background: #000000;
-  border: none;
-}
-#message {
-  height: 150px;
-  width: 300px;
-  text-align: start;
-}
-
-#port li {
-  list-style: none;
-  padding: 20px;
-  border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background-color: #e6e6e6;
-}
-#about h1 {
-  font-size: 20pt;
-  color: #12194d;
-}
-#about a[target="_blank"]:after {
-  font-family: "FontAwesome";
-  content: " \f35d";
-}
-#about a,
-.box a {
-  color: #4970db;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-/*boxes*/
-#boxes {
-  margin-top: 50px;
-}
-#boxes .box {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  text-align: center;
-}
-#boxes .box img {
-  width: 90px;
-}
-
-.centering {
-  height: 55px;
-  position: relative;
-  display: flex;
-}
-
-.center {
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-aside {
-  float: right;
-  width: 30%;
-  padding: 10px;
-}
-
-footer {
-  padding: 10px;
-  margin-top: 100px;
-  color: #ffffff;
-  background-color: #586070;
   text-align: center;
 }
+.text-box h1{
+  font-size: 62px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 16px;
+}
+.uni-webpage{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: large;
+}
+.uni-webpage:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.2s;
+}
 
-/*mobile device setting*/
 @media (max-width: 768px) {
-  header #name,
-  header nav,
-  header nav li,
-  #boxes .box,
-  article #about,
-  aside #sidebar,
-  #message,
-  #button1,
-  #port li {
-    float: none;
-    text-align: center;
-    width: 100%;
+  .text-box h1{
+    font-size: 20px;
   }
-  header {
-    padding-bottom: 20px;
+  .container ul li {
+      display: block;
   }
-  #showcase h1 {
-    margin-top: 50px;
+  .container{
+      position: absolute;
+      background: #12194d;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: 0;
+      text-align: left;
+      z-index: 2;
   }
+}
+
+
+
+
+/* footer  */
+footer {
+padding: 10px;
+margin-top: ;
+color: #c6bebe;
+background-color: #21252e;
+text-align: center;
+}
+
+footer > a{
+  color: #e8491d;
+}
+
+footer > a:hover{
+  color: white;
 }
