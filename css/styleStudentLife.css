@@ -1,3 +1,18 @@
+
+.para{
+        
+  color: rgb(156, 149, 149);
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -135,7 +150,8 @@ body {
 
   /*facilities*/
   .facilities{
-      padding-top: 80px;
+      padding-top: 20px;
+      padding-bottom: 0px;
       width: 80%;
       margin: auto;
       text-align: center; 
@@ -195,7 +211,7 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30x;
   }
   .campus p{
     color: rgb(156, 149, 149);
@@ -206,7 +222,7 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 30px;
+    
   }
   .list-of-campus{
       width: 80%;
