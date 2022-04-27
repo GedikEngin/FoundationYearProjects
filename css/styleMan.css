@@ -202,20 +202,12 @@ body {
         height: 100%;
     }
   }
-  /*Reference back to university*/
-  .small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+  .feature-img img{
+    width: 100%;
+
   }
-  .col-4
-
-
-
 
   /*Campus*/
-
   .campus h1{
     font-size: 60px;
     font-family: 'Josefin Sans', sans-serif;
@@ -224,7 +216,13 @@ body {
     text-align: center;
     padding-top: 60px;
   }
-  .campus p{
+  .box h4{
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .campus p
+  .box p{
     color: rgb(95, 92, 92);
     font-size: 14px;
     font-weight: 300;
@@ -232,7 +230,7 @@ body {
     padding: 10px;
     width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     padding: 30px;
   }
   .list-of-campus{
@@ -287,15 +285,17 @@ body {
   width: 100px;
   height: 320px;
   width: 90%;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 /*.box img:hover{
   box-shadow: 0 0 20px 0px;
 }*/
 .box:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -ms-transform: scale(0.95); /* IE 9 */
+  -webkit-transform: scale(0.95); /* Safari 3-8 */
+  transform: scale(0.95); 
 }
 footer {
   padding: 10px;
