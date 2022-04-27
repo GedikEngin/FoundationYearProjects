@@ -138,18 +138,18 @@ body {
   }
 
   /*facilities*/
-  .facilities{
+  .accommodation{
       padding-top: 20px;
       width: 80%;
       margin: auto;
       text-align: center; 
   }
-  .facilities h1{
+  .accommodation h1{
       font-size: 60px;
-      font-family: 'Mouse Memoirs', sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
       font-weight: 500;
   }
-  .facilities p{
+  .accommodation p{
       color: rgb(156, 149, 149);
       font-size: 14px;
       font-weight: 300;
