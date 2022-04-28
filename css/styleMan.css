@@ -299,8 +299,16 @@ body {
 }
 footer {
   padding: 10px;
-  margin-top: 500px;
+  margin-top: ;
   color: #c6bebe;
   background-color: #21252e;
   text-align: center;
-}
+  }
+  
+  footer > a{
+    color: #e8491d;
+  }
+  
+  footer > a:hover{
+    color: white;
+  }
