@@ -132,7 +132,7 @@ header a:hover {
 
 
 .tab_title{
-  margin-top: 1em;
+  margin-top: 1.5em;
   display: grid;
   max-width: 80%;
   margin-left: 10%;
@@ -169,10 +169,60 @@ header a:hover {
 }
 
 
+.map{
+  max-width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto;
+}
+.map > img{
+  width: 75%;
+  height: auto;
+  object-fit: contain;
+  margin: 1.5em;
+}
+
+
+.progression{
+  max-width: 90%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* column-gap: 2em; */
+  text-align: center;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.progression_img > img{
+  width: 110%;
+  height: 55%;
+  object-fit: contain;
+  margin: 1em;
+  overflow: hidden
+}
+
+.tab_content > a{
+  color: #e8491d;
+}
+
+.steps{
+  max-width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto;
+}
+.steps > img{
+  width: 75%;
+  height: auto;
+  object-fit: contain;
+  margin: 1.5em;
+}
+
 /* footer  */
 footer {
 padding: 10px;
-margin-top: ;
+margin-top: 1em;
 color: #c6bebe;
 background-color: #21252e;
 text-align: center;
