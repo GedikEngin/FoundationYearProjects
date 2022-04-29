@@ -127,7 +127,7 @@ body {
     }
   }
 
-  /*facilities*/
+/*
   .facilities{
       padding-top: 80px;
       width: 80%;
@@ -296,7 +296,8 @@ body {
   -ms-transform: scale(0.95); /* IE 9 */
   -webkit-transform: scale(0.95); /* Safari 3-8 */
   transform: scale(0.95); 
-}
+} */
+
 footer {
   padding: 10px;
   margin-top: 20px;
