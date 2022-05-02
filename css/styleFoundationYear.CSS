@@ -130,6 +130,25 @@ header a:hover {
 
 /* body */
 
+.main_body h2{
+  font-size: 35px;
+  font-family: Monaco ;
+  color: #35424a;
+  text-decoration: underline #e8491d;
+}
+
+.main_body h3{
+  font-size: 25px;
+  font-family: Monaco ;
+  color:#e8491d;
+}
+
+.main_body p{
+  font-size: 12px;
+  font-family: Monaco ;
+  color: rgb(85, 85, 85);
+}
+
 
 .tab_title{
   margin-top: 1.5em;

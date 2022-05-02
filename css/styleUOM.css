@@ -143,6 +143,19 @@ body {
     border-radius: 15px;
   }
 
+  .main_body h2{
+    font-size: 35px;
+    font-family: Monaco ;
+    color: #35424a;
+    text-decoration: underline #e8491d;
+  }
+  
+  .main_body p{
+    font-size: 12px;
+    font-family: Monaco ;
+    color: rgb(85, 85, 85);
+  }
+
 
 footer {
   padding: 10px;
