@@ -3,20 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.para{
-        
-  color: rgb(156, 149, 149);
-  font-size: 14px;
-  font-weight: 300;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 30px;
-  text-align: center;
-
-}
-
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -148,6 +134,7 @@ body {
     display: grid;
     max-width: 80%;
     margin-left: 10%;
+    padding: 1em;
   }
   
   .accomodation, .activities{
@@ -179,6 +166,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     border-radius: 15px;
+    padding: 1em;
   }
 
   .main_body h2{
@@ -189,7 +177,7 @@ body {
   }
   
   .main_body p{
-    font-size: 12px;
+    font-size: 15px;
     font-family: Monaco ;
     color: rgb(85, 85, 85);
   }
