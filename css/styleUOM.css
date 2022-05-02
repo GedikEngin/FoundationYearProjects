@@ -157,6 +157,12 @@ body {
     color: rgb(85, 85, 85);
   }
 
+  .main_body h3{
+    font-size: 25px;
+    font-family: Monaco ;
+    color:#e8491d;
+  }
+
 
 footer {
   padding: 10px;
