@@ -239,6 +239,14 @@ header a:hover {
   margin: 1.5em;
 }
 
+.tab_content a{
+  color: #e8491d;
+}
+
+.tab_content a:hover{
+  font-weight: bold;
+}
+
 /* footer  */
 footer {
 padding: 10px;
