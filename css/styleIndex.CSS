@@ -129,7 +129,7 @@ header a:hover {
 }
 
 /* the 4 bubbles that navigate to the other segments of the site */
-
+/* the container itself */
 .body_bubbles{
   max-width: 60%;
   margin-top: 5em;
@@ -144,7 +144,7 @@ header a:hover {
   overflow: hidden;
 }
 
-
+/* anchor  */
 .body_bubbles > a{
   position: relative;
   display: grid;
@@ -185,6 +185,7 @@ header a:hover {
   background-size: 400%;
 }
 
+/* the before state */
 .body_bubbles > a:first-child:before,
 .body_bubbles > a:nth-child(2):before,
 .body_bubbles > a:nth-child(3):before,
@@ -202,6 +203,7 @@ header a:hover {
   transition: opacity 0.5s;
 }
 
+/* after hovering state */
 .body_bubbles > a:first-child:hover:before,
 .body_bubbles > a:nth-child(2):hover:before,
 .body_bubbles > a:nth-child(3):hover:before,
@@ -253,6 +255,7 @@ header a:hover {
   animation: glow 8s linear infinite;
 }
 
+/* the glow animation */
 @keyframes glow {
   0%{
     background-position: 0%;

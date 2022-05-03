@@ -134,6 +134,7 @@ body {
   margin-left: 10%;
 }
 
+/* breaking the city and culture containers into 1/3 of the 80% main body width */
 .city, .culture{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -146,6 +147,7 @@ body {
   
 }
 
+/* style targetting */
 .main_body h2{
   font-size: 35px;
   font-family: Monaco ;
@@ -187,7 +189,7 @@ body {
   box-shadow: 0px 0px 10px #35424a;
 }
 
-
+/* images having a white tint on hover */
 .image {
   opacity: 1;
   display: block;
@@ -197,16 +199,6 @@ body {
   backface-visibility: hidden;
 }
 
-.img_text {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .main_body a:hover .image {
   opacity: 0.3;
@@ -216,6 +208,7 @@ body {
   opacity: 1;
 }
 
+/* footer */
 
 footer{
   padding: 10px;
