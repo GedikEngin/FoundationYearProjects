@@ -1,4 +1,7 @@
-put references here <3
+References:
+
+Home section:
+-Manchestersightseeingtours.com (2022). Cityscape from Peters Square [Illustration]. Available at: https://manchestersightseeingtours.com/tour/discover-manchester-walking-tour/ (Accessed 08 May 2022).
 
 The Manchester section: 
 -The main background image: 
@@ -16,7 +19,7 @@ mansports, Manchester United Logo transparent PNG - StickPNG. Retrieved from: ht
 -Nightlife image (22):
 mannight, Ultimate Guide to Manchester NIGHTLIFE (Best places to go!) | Town & Tourist. Retrieved from: https://www.townandtourist.com/manchester-nightlife/
 
-The University of Manchester section
+The University of Manchester section:
 -The description for the images (55), (27), and (2) was taken from: https://www.manchester.ac.uk/discover/facilities/
 -The main background image:
 Banner, How To Make Website Using HTML & CSS [You Tube]. Retrieved from: https://drive.google.com/file/d/1DzEpUUBhUL5l-NeQ0IuaOpBZkmi9z1Fm/view.
@@ -33,7 +36,23 @@ Support, Shutter Stock. Retrieved from: https://www.shutterstock.com/search/excl
 -The SU image (41): 
 SU, University of Manchester Students' Union - Photos | Facebook. Retrieved from: https://www.facebook.com/ManchesterSU/photos/?tab=album&album_id=426651682700&mt_nav=1&_rdr
 
-FY section
+The Student Life section
+-The main background image:
+
+-Fallowfield Campus image:
+fallowfield campus, Fallowfield, Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/fallowfield/
+-Victoria Park image:
+Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/victoriapark/
+-City Campus image:
+Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/city/
+-Societies image:
+Retreived from: https://manchesterstudentsunion.com/activities
+-Volunteering image:
+Retrieved from: https://manchesterstudentsunion.com/volunteering-and-fundraising
+-Peer Buddy Scheme image:
+Retrieved from: https://manchesterstudentsunion.com/buddyscheme
+
+FY section:
 -Nicelabel.com (2021). Progression [illustration]. Available at: https://www.nicelabel.com/blog/2021-
 01-26/five-steps-eumdr-labeling/ (Accessed: 04 May 2022).
 -Rawpixel.com (2022). Geometry education blue background psd frame disruptive education digital
@@ -57,20 +76,3 @@ details. Available at: BSc Computer Science with an Integrated Foundation Year -
 -University of Manchester (2022). Mitigating circumstances and extension requests. Available at:
 Student Support | Support For Your Studies | Mitigating Circumstances | The University of
 Manchester (Accessed 04 May 2022).
-
-The Student Life section
--The main background image:
-
--Fallowfield Campus image:
-fallowfield campus, Fallowfield, Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/fallowfield/
--Victoria Park image:
-Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/victoriapark/
--City Campus image:
-Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/city/
--Societies image:
-Retreived from: https://manchesterstudentsunion.com/activities
--Volunteering image:
-Retrieved from: https://manchesterstudentsunion.com/volunteering-and-fundraising
--Peer Buddy Scheme image:
-Retrieved from: https://manchesterstudentsunion.com/buddyscheme
-
