@@ -36,21 +36,24 @@ Support, Shutter Stock. Retrieved from: https://www.shutterstock.com/search/excl
 -The SU image (41): 
 SU, University of Manchester Students' Union - Photos | Facebook. Retrieved from: https://www.facebook.com/ManchesterSU/photos/?tab=album&album_id=426651682700&mt_nav=1&_rdr
 
-The Student Life section
--The main background image:
 
--Fallowfield Campus image:
-fallowfield campus, Fallowfield, Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/fallowfield/
--Victoria Park image:
-Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/victoriapark/
--City Campus image:
-Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/city/
--Societies image:
-Retreived from: https://manchesterstudentsunion.com/activities
--Volunteering image:
-Retrieved from: https://manchesterstudentsunion.com/volunteering-and-fundraising
--Peer Buddy Scheme image:
-Retrieved from: https://manchesterstudentsunion.com/buddyscheme
+The Student Life section:
+-Banner Image (6):
+School of Human Evolution and Social Change - Arizona State University
+Campus Life | School of Human Evolution and Social Change. Retrieved from: https://shesc.asu.edu/student-life/campus-life [Accesed on 4th May 2022]
+-Fallowfield Campus Image (18):
+University of Manchester Accommodation. (2018) Exterior, Richmond Park. Published by Flicker. Retrieved from: https://www.flickr.com/photos/98900730@N05/44855844582/  [Accesed on 4th May 2022]
+-Victoria Park Image (9):
+Victoria Park, Accommodation. The University of Manchester. Retrieved from: https://www.accommodation.manchester.ac.uk/ouraccommodation/hallsofresidence/victoriapark/ [Accesed on 4th May 2022]
+-City Campus Image (10):
+Whitworth Park, City Campus. Accommodation, The University of Manchester. (2000) Exterior, Whitworth Park. Published by Flicker. Retrieved from: https://www.flickr.com/photos/98900730@N05/44184928574/in/album-72157646054220569/ [Accessed on 4th May 2022] 
+-Students Union Image (39):
+Students Union Logo, University of Manchester Students’ Union. Retrieved from: https://mobile.twitter.com/manchestersu [Accessed on 4th May 2022]
+-Volunteer Hub Image (53):
+Students Union, Volunteering, University of Manchester Students’ Union. Retrieved from: https://twitter.com/uomvolunteering/status/1134440688916094976 [Accessed on 4th May 2022]
+-Peer-Buddy Scheme (36):
+Peer Support – Buddy Up scheme - Gloucestershire Carers Hub. Retrieved from: https://gloucestershirecarershub.co.uk/peer-support-buddy-up-scheme/ [Accessed on 4th May 2022]
+
 
 FY section:
 -Nicelabel.com (2021). Progression [illustration]. Available at: https://www.nicelabel.com/blog/2021-
