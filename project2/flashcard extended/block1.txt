@@ -1,0 +1,24 @@
+Block 1:
+
+What is control flow:
+
+- Control flow is the order the reader or machine carries out the task.
+
+
+Key ideas with Algorithms:
+
+- Detailed instructions/steps without an overcomplication.
+- Control Flow. Uses of statements in the correct order or and properly used without adding extra steps.
+- The level it is written at has to be suitable for the target audience. For example if it was written for a little child you would use short precise clear instructions whereas if it was for a machine it would be precise and require more detailed solution.
+
+What are the 2 ways to describe an algorithm:
+
+- Pseudo code.
+- Flow chart.
+
+What to look out for when analysing analgorithm:
+
+- Is it correct.
+- Speed of output.
+- How much memory does it take.
+- Does it terminate.

@@ -1,0 +1,14 @@
+Block 0:
+
+What is a specifcation:
+
+- list of inputs and outputs.
+- very precise parameters.
+
+What is an algorithm:
+
+- A precise form on instructions that are used to describe the instructions to solve the problem.
+
+Key thing to avoid when writing an algorithm:
+
+- The use of abiguity within a solution or instruction to a problem.For example using a long word instead of writing the key point in basic english. It provides the reader with a better undewrstanding and a limit any misunderstanding that may occur.

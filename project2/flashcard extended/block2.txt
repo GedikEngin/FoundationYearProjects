@@ -1,0 +1,86 @@
+Block 2:
+
+What is a loop:
+
+- A series of instructions that when completed starts at the beginning.
+
+What is the body of the Loop:
+
+- It's the instructions that are to be carried out.
+
+What is 'go round the loop':
+
+- How often the loop repeats.
+
+What is the use of {}:
+
+- They are used to clearly show where the body of instructions start and end at.
+
+For Loops:
+
+Count:
+
+- It represents how many times to repeat the loop body.
+
+
+How is a For loop is formated:
+
+For count do *instructions*
+
+Requirements of a For Loop:
+
+- Start Value.
+- End Value.
+- Step size, this can be given in the context of the problem or can be expressed after writing the start to end value of the loop.
+
+
+
+Example of a For loop:
+
+For January to December 
+	if the month has the letter r in it then we can call it a winter month
+		else we can call it a summer month
+
+
+Counting the number steps for a For loop:
+
+*Total number of instructions* = ( Number of instructions ) x (Number of repitions the For Loop carries out)
+
+
+Do ... Until loops:
+
+
+What is a condition:
+
+- A requirement that needs to be met until the loop can be stoped
+
+Format of Do ... Until loops:
+ 
+Do *Instructions* 
+	...
+Until condtion is met
+
+
+How do we count the steps Do...Until loops:
+
+*Number of steps* = (Count the amount of times it loops around to meet the condition) x (Number of steps in the body of instructions)
+
+
+Can this Loop go to infinite:
+
+Yes.
+
+
+While ... Do Loops:
+
+
+
+How is a While ... Do Loop formated:
+
+While condition
+	do {*Instruction*
+}
+
+How does this Loop work:
+
+When carrying out the task the loop will keep on cycling until the condition is not met where then it will end.

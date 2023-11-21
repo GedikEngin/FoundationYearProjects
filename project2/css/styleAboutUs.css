@@ -1,0 +1,182 @@
+/* affects the main body of the site  */
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f6f6;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navbar itself */
+.nav_bar {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* the navigation tabs at the top */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+/*Header*/
+header {
+  background: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #12194d;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #name {
+  float: left;
+}
+header #name h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight {
+  color: gold;
+}
+header a:hover {
+  font-weight: bold;
+}
+
+/* the welcome segment y*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../images/improve-team-efficiency-productivity-header.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text_box{
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text_box h1{
+  font-size: 62px;
+}
+.text_box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+}
+.img_shortcut{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: large;
+}
+.img_shortcut:hover{
+  border: 1px solid gold;
+  background: gold;
+  transition: 0.5s;
+}
+
+/* profiles */
+ .bios{
+  text-align: center;
+  border: ;
+ }
+
+
+.profiles img{
+  height:200px;
+  width:200px;
+}
+
+.sub_bios{
+  max-width: 1200px;
+  margin-left: 18.5%;
+  padding:  48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profiles{
+  margin: 10px;
+  padding: 22px;
+  max-width: 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing:border-box;
+  border-radius: 10px;
+}
+
+.profiles:hover{
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.name{
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.role{
+  font-style: italic;
+  color: darkgray;
+}
+
+.biography{
+  margin: 20px 0;
+  font-weight: lighter;
+  color: darkgray;
+}
+
+/* footer */
+
+footer {
+  padding: 10px;
+  margin-top: 1em;
+  color: gold;
+  background-color: #21252e;
+  text-align: center;
+  }
+  
+  footer > a{
+    color: gold;
+    text-decoration: none;
+  }
+  
+  footer > a:hover{
+    color: white;
+  }

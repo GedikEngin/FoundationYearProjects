@@ -1,0 +1,364 @@
+/* affects the main body of the site  */
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f6f6;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navbar itself */
+.nav_bar {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* the navigation tabs at the top */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+/*Header*/
+header {
+  background: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #12194d;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #name {
+  float: left;
+}
+header #name h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight {
+  color: gold;
+}
+header a:hover {
+  font-weight: bold;
+}
+
+/* the welcome segment y*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../images/revision.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text_box{
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text_box h1{
+  font-size: 62px;
+}
+.text_box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+}
+.img_shortcut{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: large;
+}
+.img_shortcut:hover{
+  border: 1px solid gold;
+  background: gold;
+  transition: 0.5s;
+}
+
+/* flashcards */
+
+/* the 3 bubbles that navigate to the other segments of the site */
+/* the container itself */
+.body_bubbles{
+  max-width: 60%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-auto-rows: 550px;
+  grid-gap: 1em;
+  overflow: hidden;
+}
+
+/* anchor  */
+.body_bubbles > a{
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 480px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hiddden;
+  text-decoration: solid;
+  font-weight: bolder;
+}
+
+/* colors and animations */
+
+.body_bubbles > a:first-child {
+  background: linear-gradient(90deg, #fbebd3, #ecb196, #fe5925, #fbebd3);
+  background-size: 400%;
+}
+
+.body_bubbles > a:nth-child(2){
+  background: linear-gradient(90deg, #fbe2dc, #dca2a1, #f45770, #fbe2dc);
+  background-size: 400%;
+}
+
+.body_bubbles > a:last-child {
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
+}
+
+/* the before state */
+.body_bubbles > a:first-child:before,
+.body_bubbles > a:nth-child(2):before,
+.body_bubbles > a:last-child:before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  bottom: -5px;
+  left: 5px;
+  right: -5px;
+  border-radius: 50px;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* after hovering state */
+.body_bubbles > a:first-child:hover:before,
+.body_bubbles > a:nth-child(2):hover:before,
+.body_bubbles > a:last-child:hover:before{
+  opacity: 1;
+  z-index: -1;
+}
+
+
+/* the links and changes on hovers + bios  */
+.body_bubbles > a:first-child::after{
+  content: "Block 0";
+}
+
+.body_bubbles > a:nth-child(2)::after{
+  content: "Block 1"
+}
+
+.body_bubbles > a:last-child::after{
+  content: "Block 2"
+}
+
+.body_bubbles > a:first-child:hover::after{
+  margin: 2em;
+  content: "A list of inputs and outputs with precise parameters"
+}
+
+.body_bubbles > a:nth-child(2):hover::after{
+  margin: 2em;
+  content: "The order of operations and/or tasks carried out by the agent"
+}
+
+.body_bubbles > a:last-child:hover::after{
+  margin: 2em;
+  content: "A series of instruction repeated until a certain condition is met"
+}
+
+.body_bubbles > a:hover {
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+
+/* second row of body bubbles  */
+
+.body_bubbles2{
+  max-width: 60%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-auto-rows: 550px;
+  grid-gap: 1em;
+  overflow: hidden;
+}
+
+/* anchor  */
+.body_bubbles2 > a{
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 480px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hiddden;
+  text-decoration: solid;
+  font-weight: bolder;
+}
+
+/* colors and animations */
+
+.body_bubbles2 > a:first-child {
+  background: linear-gradient(90deg, 	#00c6e6, #00b4d1, #01a1bb, #0093ab, #00c6e6);
+  background-size: 400%;
+}
+
+.body_bubbles2 > a:nth-child(2){
+  background: linear-gradient(90deg, #7041c7, #c06dff,	#7b37dc, #a94af0,  #7b37dc);
+  background-size: 400%;
+}
+
+.body_bubbles2 > a:last-child {
+  background: linear-gradient(90deg, 	#5fdac3, #31d5b8, #0ab898, #5fdac3 );
+  background-size: 400%;
+}
+
+/* the before state */
+.body_bubbles2 > a:first-child:before,
+.body_bubbles2 > a:nth-child(2):before,
+.body_bubbles2 > a:last-child:before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  bottom: -5px;
+  left: 5px;
+  right: -5px;
+  border-radius: 50px;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* after hovering state */
+.body_bubbles2 > a:first-child:hover:before,
+.body_bubbles2 > a:nth-child(2):hover:before,
+.body_bubbles2 > a:last-child:hover:before{
+  opacity: 1;
+  z-index: -1;
+}
+
+
+/* the links and changes on hovers + bios  */
+.body_bubbles2 > a:first-child::after{
+  content: "Block 3";
+}
+
+.body_bubbles2 > a:nth-child(2)::after{
+  content: "Block 4"
+}
+
+.body_bubbles2 > a:last-child::after{
+  content: "Block 5"
+}
+
+.body_bubbles2 > a:first-child:hover::after{
+  margin: 2em;
+  content: 'A graph with values assigned to the edges to show direction and size'
+}
+
+.body_bubbles2 > a:nth-child(2):hover::after{
+  margin: 2em;
+  content: "The task being completed in least amount of steps"
+}
+
+.body_bubbles2 > a:last-child:hover::after{
+  margin: 2em;
+  content: "A function that calls itself within the function, until a condition is met"
+}
+
+.body_bubbles2 > a:hover {
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+
+/* the glow animation */
+@keyframes glow {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+
+/* footer */
+
+footer {
+  padding: 10px;
+  margin-top: 1em;
+  color: gold;
+  background-color: #21252e;
+  text-align: center;
+  }
+  
+/* footer */
+
+  footer > a{
+    color: gold;
+    text-decoration: none;
+  }
+  
+  footer > a:hover{
+    color: white;
+  }

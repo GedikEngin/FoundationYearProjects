@@ -1,0 +1,42 @@
+Block 4:
+
+
+
+What is complexity of an algorithm:
+
+- The number of steps / time or the memory used/space it takes to run the inputs to the desired outputs.
+
+
+What are the three scenarios used to evaluate algorithms:
+
+- Best case scenario.
+- Worse case scenario.
+- Average case scenario.
+
+
+What is the best case scenario:
+
+- It is when we go through the instructions with the least amount of steps taken.
+
+What is the wotse case scenario:
+
+- we take the most possible amount of steps taken to get the worse result.
+
+
+What does the number of nested loop within it self represent:
+
+- the degree of the set .
+
+Why can't we use a machine to work out the time an algorithm takes:
+
+- Hardware of the machine differ between machines giving different results when running the programme or algorithm.
+- The machine/hardware may be built for the programe only therefore causing different results per machine.
+
+
+What are the two types of counting:
+
+- Fair grained analysis with lots of detail.
+	- We count per branch and give that as the answer.
+
+- General analysis, we use this comparing to other algorithms.
+	- We use worse case scenario.

@@ -1,0 +1,74 @@
+scrapped flashcard:
+    <div class="main_box">
+      <div class="flashcard">
+        <img src="./images/tech.jpg" alt="flashcard background img">
+        <div class="info">
+          <h1>Quesion 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium, maiores quas vel ea dolor hic.</p>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <img src="./images/tech2.jpg" alt="flashcard background img">
+        <div class="info">
+          <h1>Quesion 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium, maiores quas vel ea dolor hic.</p>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <img src="./images/tech3.jpg" alt="flashcard background img">
+        <div class="info">
+          <h1>Quesion 3</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium, maiores quas vel ea dolor hic.</p>
+        </div>
+      </div>
+    </div>
+------------ css ------------
+/* flashcards */
+
+.main_body{
+  /* margin-left: 6.5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashcard{
+  height: 250px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.main_box{
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  display: flex;
+}
+
+.main_box img{
+  height: 250px;
+  border-radius: 5px;
+}
+
+.info{
+  height: 250px;
+  width: 355px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: gray;
+  color: white;
+}
+
+.main_box:hover{
+  cursor: pointer;
+}
+
+  /* video 04:00 */
+  /* https://www.youtube.com/watch?v=t5zFfDdvApE */
